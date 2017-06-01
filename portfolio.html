@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	
+	
+	<link rel="shortcut icon" href="images/16x16_web_design_marketing.png">
+	<title>Custom Web Development | Graphic Design | Digital Marketing</title>
+
+	<!-- Bootstrap Core CSS -->
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="vendor/fontawesome/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+	<link href="vendor/animateit/animate.min.css" rel="stylesheet">
+
+	<!-- Vendor css -->
+	<link href="vendor/owlcarousel/owl.carousel.css" rel="stylesheet">
+	<link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+	<!-- Template base -->
+	<link href="css/theme-base.css" rel="stylesheet">
+
+	<!-- Template elements -->
+	<link href="css/theme-elements.css" rel="stylesheet">	
+    
+    
+	<!-- Responsive classes -->
+	<link href="css/responsive.css" rel="stylesheet">
+
+	<!--[if lt IE 9]>
+		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<![endif]-->		
+
+	<!-- Template color -->
+	<link href="css/color-variations/blue.css" rel="stylesheet" type="text/css" media="screen" title="blue">
+
+	<!-- LOAD GOOGLE FONTS -->
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,800,700,600%7CRaleway:100,300,600,700,800" rel="stylesheet" type="text/css" />
+
+	<!-- CSS CUSTOM STYLE -->
+    <link rel="stylesheet" type="text/css" href="css/custom.css" media="screen" />
+
+    <!--VENDOR SCRIPT-->
+    <script src="vendor/jquery/jquery-1.11.2.min.js"></script>
+    <script src="vendor/plugins-compressed.js"></script>
+
+    <!-- Google Analytics -->
+    <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-81320719-1', 'auto');
+          ga('send', 'pageview');
+
+    </script>
+    
+    <!-- End of Google Analytics -->
+    
+</head>
+
+<body class="wide">
+	
+
+	<!-- WRAPPER -->
+	<div class="wrapper">
+
+	                <!-- Top bar -->
+        		<div id="topbar" class="topbar-colored" > <!-- class="topbar-transparent" -->
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 hidden-xs">
+						<ul class="top-menu">
+                            <li><a href="#">Phone: 647-393-6444</a></li>
+							<li><a href="mailto:contact@ePropel.ca">Email: contact@ePropel.ca</a></li>
+							<li class="social-facebook"><a href="https://facebook.com/epropel" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            <li class="social-google"><a href="https://www.instagram.com/ePropel_CA" target="_blank"><i class="fa fa-instagram"></i></a></li>
+						</ul>
+					</div>
+					
+				</div>
+			</div>
+        </div>
+        
+        
+		<!-- HEADER -->
+		<header id="header" class="header-light">
+			<div id="header-wrap">
+				<div class="container">
+
+					<!--LOGO-->                                        
+                    <div id="logo">
+                        <a href="/index.html" class="logo" data-dark-logo="/images/epropel.png" >
+                            <img src="/images/ePropel.png" alt="ePropel">
+                        </a>
+                    </div>
+					<!--END: LOGO-->
+
+					<!--MOBILE MENU -->
+					<div class="nav-main-menu-responsive">
+						<button class="lines-button x">
+							<span class="lines"></span>
+						</button>
+					</div>
+					<!--END: MOBILE MENU -->
+
+					
+
+					
+					<!--END: TOP SEARCH -->
+
+					<!--NAVIGATION-->
+					<div class="navbar-collapse collapse main-menu-collapse navigation-wrap">
+						<div class="container">
+                            <nav id="mainMenu" class="main-menu mega-menu">
+                                <ul class="main-menu nav nav-pills">
+                                    
+                                    <li><a href="/index.html">Home</a></li>                        
+                                    <li><a href="/about.html">About Us</a></li>
+                                    <li><a href="/portfolio.html">Portfolio
+                                        <span class="label label-danger infinit">HOT</span> </a>
+                                    </li>         
+                                    <li><a href="/faq.html">FAQ</a></li>
+                                    <li><a href="/contact.html">Contact Us</a></li>
+                                            
+                                </ul>
+                            </nav>
+						</div>
+					</div>
+					<!--END: NAVIGATION-->
+				</div>
+			</div>
+		</header>
+		<!-- END: HEADER -->
+    
+
+<!-- PAGE TITLE -->
+<section id="page-title" class="page-title-parallax page-title-center text-dark" style="background-image:url(images/parallax/page-title-parallax.jpg);">
+    <div class="container">
+        <div class="page-title col-md-8">
+            <h1>Featured Portfolio</h1>
+            <span>Check out some of the projects that our team has done.</span>
+        </div>
+    </div>
+</section>
+<!-- END: PAGE TITLE -->
+
+
+<!-- SECTION -->
+<section>
+    <div class="container portfolio">
+
+        <!--Portfolio Filter-->
+        <div class="filter-active-title">Show All</div>
+        <ul class="portfolio-filter" id="portfolio-filter" data-isotope-nav="isotope">
+						<li class="ptf-active" data-filter="*">Show All</li>
+                        <li data-filter=".design">Design</li>
+                        <li data-filter=".website">Website</li>
+						<li data-filter=".marketing">Digital Marketing</li>
+					</ul>
+        <!-- END: Portfolio Filter -->
+
+        <!-- Portfolio Items -->
+        <div id="isotope" class="isotope portfolio-items" data-isotope-item-space="3" data-isotope-mode="masonry" data-isotope-col="3" data-isotope-item=".portfolio-item">
+            
+            <div class="portfolio-item website">
+                <div class="portfolio-image effect social-links">
+                    <img src="images/600x400_NASG.png" alt="">
+                    <div class="image-box-content">
+                        <p>
+                            <a href="images/1305x870_NASG.png" data-lightbox-type="image" title="North American Search Group"><i class="fa fa-expand"></i></a>
+                            <a href="http://www.nasearchg.com/" target="_blank"><i class="fa fa-link"></i></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="portfolio-description">
+                    <h4 class="title">www.Nasearchg.com</h4>
+                    <p><i class="fa fa-tag"></i>Website</p>
+                    
+                </div>
+                <div class="portfolio-details">
+                    <p>Created a custom job posting website for the actuarial recruitment company, North American Search Group, to serve job seekers in 30 countries worldwide. </p>
+                </div>
+            </div>
+
+            <!-- End 1 -->
+            
+            <!-- End 2 -->
+            
+            <div class="portfolio-item design">
+                <div class="portfolio-image effect social-links">
+                    <img src="images/USC_thumbnail.png" alt="">
+                    <div class="image-box-content">
+                        <p>
+                            <a href="images/USC_large.png" data-lightbox-type="image" title="University of Southern California"><i class="fa fa-expand"></i></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="portfolio-description">
+                    <h4 class="title">University of Southern California</h4>
+                    <p><i class="fa fa-tag"></i>Design</p>
+                </div>
+                <div class="portfolio-details">
+                    <p>One of the logo re-design proposals for the University of Southern California Thornton School of Music Choir.</p>
+                </div>
+            </div>
+            
+            <div class="portfolio-item website">
+                <div class="portfolio-image effect social-links">
+                    <img src="images/600x400_Lochness_Medical_Portfolio.png" alt="">
+                    <div class="image-box-content">
+                        <p>
+                            <a href="images/1305x870_Lochness_Medical_Portfolio.png" data-lightbox-type="image" title="New Lochness Medical Website"><i class="fa fa-expand"></i></a>
+                            <a href="http://www.lochnessmedical.com/" target="_blank"><i class="fa fa-link"></i></a> 
+                        </p>
+                    </div>
+                </div>
+                <div class="portfolio-description">
+                    <h4 class="title">www.LochnessMedical.com</h4>
+                    <p><i class="fa fa-tag"></i>Website</p>
+                </div>
+
+                <div class="portfolio-details">
+                    <p>Created a custom coded website for Lochness Medical Inc. to display medical products to customers across North America.</p>
+                </div>
+            </div>
+            
+            <!-- End 3 -->
+
+            <div class="portfolio-item design">
+                <div class="portfolio-image effect social-links">
+                    <img src="images/AU_logo_thumbnail.png" alt="">
+                    <div class="image-box-content">
+                        <p>
+                            <a href="images/AU_logo_thumbnail.png" data-lightbox-type="image" title="Arts Unionville Logo"><i class="fa fa-expand"></i></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="portfolio-description">
+                    <h4 class="title">Arts Unionville Logo</h4>
+                    <p><i class="fa fa-tag"></i>Design</p>
+                </div>
+                <div class="portfolio-details">
+                    <p>Two logo designs for the Unionville High School Arts Program, with the one on the left voted most popular and printed onto clothing for the graduating class of 2015.</p>
+                </div>
+            </div>
+
+             <!-- End 4 -->
+            
+            <div class="portfolio-item design">
+                <div class="portfolio-image effect social-links">
+                    <img src="images/intend_to_inspire_thumbnail.png" alt="">
+                    <div class="image-box-content">
+                        <p>
+                            <a href="images/intendtoinspire_large.jpg" data-lightbox-type="image" title="Project 5K Apparel Design"><i class="fa fa-expand"></i></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="portfolio-description">
+                    <h4 class="title">Project 5K Apparel Design</h4>
+                    <p><i class="fa fa-tag"></i>Design</p>
+                </div>
+                <div class="portfolio-details">
+                    <p>Sweater design created for the Humans of Project 5K group, an exclusive group of Project 5K volunteers, as a recognition of their avid volunteering in events and their dedication to the community.</p>
+                </div>
+            </div>
+
+            <!-- End 5 -->
+            
+            <div class="portfolio-item design">
+                <div class="portfolio-image effect social-links">
+                    <img src="images/fast-forward-thumbnail.png" alt="">
+                    <div class="image-box-content">
+                        <p>
+                            <a href="images/FastForwardFair-large.jpg" data-lightbox-type="image" title="Creativity Through Arts - Fast Forward"><i class="fa fa-expand"></i></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="portfolio-description">
+                    <h4 class="title">Creativity Through Arts</h4>
+                    <p><i class="fa fa-tag"></i>Design</p>
+                </div>
+                <div class="portfolio-details">
+                    <p>For Creativity Through Art’s youth entrepreneur conference, ‘Fast Forward’, where speakers present 20 slides in 20 seconds (a style named ‘Pecha Kucha’ by the Japanese).</p>
+                </div>
+            </div>
+            
+             <!-- End 6 -->
+            
+            <div class="portfolio-item design">
+                <div class="portfolio-image effect social-links">
+                    <img src="images/world_vision.png" alt="">
+                    <div class="image-box-content">
+                        <p>
+                            <a href="images/World-Vision-Concert-large.jpg" data-lightbox-type="image" title="Project 5K and World Vision"><i class="fa fa-expand"></i></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="portfolio-description">
+                    <h4 class="title">World Vision and Project 5K</h4>
+                    <p><i class="fa fa-tag"></i>Design</p>
+                </div>
+                <div class="portfolio-details">
+                    <p>Promotional design for Project 5K in collaboration with World Vision to gather 50 volunteers for their signature fundraising concert.</p>
+                </div>
+            </div>
+            
+               <!-- End 7 -->
+            
+            <div class="portfolio-item design">
+                <div class="portfolio-image effect social-links">
+                    <img src="images/pledges_for_change_thumbnail.png" alt="">
+                    <div class="image-box-content">
+                        <p>
+                            <a href="images/PledgesForChange-large.jpg" data-lightbox-type="image" title="Pledges for Change"><i class="fa fa-expand"></i></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="portfolio-description">
+                    <h4 class="title">Pledges for Change</h4>
+                    <p><i class="fa fa-tag"></i>Design </p>
+                </div>
+                <div class="portfolio-details">
+                    <p>Promotional poster to encourage youth to join a youth-led, international non-profit organization that is the largest movement of its’ kind in the world.</p>
+                </div>
+            </div> 
+
+             <!-- End 8 -->
+            
+             <div class="portfolio-item marketing">
+                <div class="portfolio-image effect social-links">
+                    <img src="images/P5K_Soclal_Media_Thumbnail.png" alt="">
+                    <div class="image-box-content">
+                        <p>
+                            <a href="images/P5K_Social_Media_Large.png" data-lightbox-type="image" title="Project 5K Marketing"><i class="fa fa-expand"></i></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="portfolio-description">
+                    <h4 class="title">Project 5K Marketing</h4>
+                    <p><i class="fa fa-tag"></i>Digital Marketing </p>
+                </div>
+                <div class="portfolio-details">
+                    <p>Utilized social media and digital marketing techniques to help Project 5K reach 2000 Facebook page likes and reach 250,000 people in the past two years. </p>
+                </div>
+            </div>
+
+             <!-- End 9 -->
+
+        </div>
+        <!-- END: Portfolio Items -->
+
+
+    </div>
+
+    <hr class="space">
+
+</section>
+        
+<!-- FOOTER -->
+<footer class="background-dark text-grey" id="footer">
+    <div class="footer-content">
+        <div class="container">
+            <div class="row text-center">
+                <img alt="ePropel" src="/images/ePropel.png" style="height:90px;" >
+                <div class="copyright-text text-center"> &copy; 2016 ePropel. All Rights Reserved. 
+                </div>
+                <div class="social-icons center">
+							<ul>
+								<li class="social-facebook"><a href="https://www.facebook.com/ePropel" target="_blank"><i class="fa fa-facebook"></i></a></li>
+								<li class="social-twitter"><a href="https://www.instagram.com/ePropel_CA" target="_blank"><i class="fa fa-instagram"></i></a></li>
+								<!-- <li class="social-linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li> -->
+								
+							</ul>
+						</div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- END: FOOTER -->
+
+</div>
+<!-- END: WRAPPER -->
+
+<!-- GO TOP BUTTON -->
+<a class="gototop gototop-button" href="#"><i class="fa fa-chevron-up"></i></a>
+
+	<!-- Theme Base, Components and Settings -->
+	<script src="js/theme-functions.js"></script>
+
+<!-- Custom js file -->
+<script src="js/custom.js"></script>
+<!-- Start of HubSpot Embed Code -->
+  <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/3361479.js"></script>
+<!-- End of HubSpot Embed Code -->
+
+</body>
+</html>

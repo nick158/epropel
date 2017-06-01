@@ -1,0 +1,23 @@
+# Use PHP5.6 as default
+AddHandler application/x-httpd-php56 .php
+AuthName "ePropel test"
+AuthUserFile "/home1/epropelc/.htpasswds/public_html/passwd"
+
+AddType image/x-icon .ico
+<IfModule mod_headers.c>
+# YEAR
+<FilesMatch ".(ico|gif|jpg|jpeg|png|flv|pdf)$">
+ Header set Cache-Control "max-age=29030400"
+</FilesMatch>
+# WEEK
+<FilesMatch ".(js|css|swf)$">
+ Header set Cache-Control "max-age=604800"
+</FilesMatch>
+# 24 HOURS
+<FilesMatch ".(html|htm|txt|php)$">
+ Header set Cache-Control "max-age=86400"
+</FilesMatch>
+</IfModule>
+
+<ifmodule mod_deflate.c>
+AddOutputFilterByType DEFLATE image/gif image/png image/jpeg image/x-icon application/pdf application/javascript application/x-javascript text/plain text/html text/css text/x-component text/xml application/json </ifmodule>
