@@ -94,7 +94,7 @@
   <div class="container">
     <h3>Like what you see?</h3>
     <p>Contact us today for a free quote and see how we can help your business propel forward.</p>
-    <a class="button large orange button-3d effect icon-left" href="/contact.html"><span><i class="fa fa-user"></i>Contact Us Now</span></a> </div>
+    <a class="button large orange button-3d effect icon-left" href="/contact.php"><span><i class="fa fa-user"></i>Contact Us Now</span></a> </div>
 </div>
    
         
@@ -114,7 +114,7 @@
 					<h4>Newton Zheng</h4>
 					<p class="subtitle">Managing Director and Technical Director</p>
 					<hr class="line">
-					<div>Newton is an experienced programmer and digital marketing consultant with a background in computer science and business. His past programming experiences includes leading the development of a new corporate website for the US Medical company, Lochness Medical Inc, and for an international actuarial recruitment website, North American Search Group, to serve company clients in over 30 countries worldwide. His digital marketing experience includes helping his non-profit startup, Project 5K, to reach over 250,000 viewers and generate 2000 page likes in just two years. This helped Project 5K to grow its network and become one of the largest organizations of its kind in Canada. As the founder of two national non-profit organizations, Newton believes in the importance of giving back to the community and believes that his work with ePropel  is a great way for him to help propel local businesses forward and give back to his community. </div>
+					<div>Newton is an experienced programmer and digital marketing consultant with a background in computer science and business. Leading website development projects for US Medical company, Lochness Medical Inc, and international actuarial recruitment website, North American Search Group, to serve company clients in over 30 countries worldwide. His digital marketing experience includes helping his non-profit startup, Project 5K, to reach over 250,000 viewers and generate 2000 page likes in just two years. This helped Project 5K to grow its network and become one of the largest organizations of its kind in Canada. As the founder of two national non-profit organizations, Newton believes in the importance of giving back to the community and believes that his work with ePropel  is a great way for him to help propel local businesses forward and give back to his community. </div>
 					<div class="social-icons social-icons-border m-t-10 text-center">
 							<ul>
 						
@@ -132,6 +132,21 @@
 					<p class="subtitle">Creative Director</p>
 					<hr class="line">
 					<div>Candy is an experienced designer with a background in advertising and design. She has worked with Evergreen Brick Works, Markham Mayor Youth Council, CIBC, and many others to create promotional material. As a Creative Coordinator for the past 2 years in Project 5K, she has helped to develop their branding and overall creative direction. She worked for a period of time with the non-profit youth council ‘Creativity Through Arts’ to get the community involved in creative volunteering opportunities. She has also worked with the Hatch Advertising Agency which was a small startup and created designs for the University of Southern California Thornton School of Music. She also has experience in apparel design. Candy believes that her passion in the arts and her love for the community is embodied in ePropel, as a way to bring more local businesses into the spotlight.    </div>
+					<div class="social-icons social-icons-border m-t-10 text-center">
+							<ul>
+							</ul>
+						</div>
+				</div>
+			</div>
+            <div class="col-md-6" data-animation="fadeInRight" data-animation-delay="200">
+				<div class="image-box circle-image large">
+					<img class="" src="images/team/nick.JPG" alt="Nicholas Chan">
+				</div>
+				<div class="image-box-description text-center">
+					<h4>Nicholas Chan</h4>
+					<p class="subtitle">Marketing Director</p>
+					<hr class="line">
+					<div>Nicholas is an experienced writer, programmer and marketer with a background in business. He has cut his teeth in marketing by starting and writing for the Project 5K Blog, growing the blog to over 10,000 views. He has also led several website projects for ePropel, including one for Maccil Marketing, an ethnic marketing firm. Nicholas believe that his passion for lifelong learning and his enjoyment of giving back to the community is embodied throughout ePropel. Bouncing ideas, brainstorming designs, and building websites is also just something Nicholas finds really fun.</div>
 					<div class="social-icons social-icons-border m-t-10 text-center">
 							<ul>
 							</ul>

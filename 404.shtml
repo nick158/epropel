@@ -96,7 +96,7 @@
 
 					<!--LOGO-->                                        
                     <div id="logo">
-                        <a href="/index.html" class="logo" data-dark-logo="/images/epropel.png" >
+                        <a href="/index.php" class="logo" data-dark-logo="/images/epropel.png" >
                             <img src="/images/ePropel.png" alt="ePropel">
                         </a>
                     </div>
@@ -121,13 +121,13 @@
                             <nav id="mainMenu" class="main-menu mega-menu">
                                 <ul class="main-menu nav nav-pills">
                                     
-                                    <li><a href="/index.html">Home</a></li>                        
-                                    <li><a href="/about.html">About Us</a></li>
-                                    <li><a href="/portfolio.html">Portfolio
+                                    <li><a href="/index.php">Home</a></li>                        
+                                    <li><a href="/about.php">About Us</a></li>
+                                    <li><a href="/portfolio.php">Portfolio
                                         <span class="label label-danger infinit">HOT</span> </a>
                                     </li>         
-                                    <li><a href="/faq.html">FAQ</a></li>
-                                    <li><a href="/contact.html">Contact Us</a></li>
+                                    <li><a href="/faq.php">FAQ</a></li>
+                                    <li><a href="/contact.php">Contact Us</a></li>
                                             
                                 </ul>
                             </nav>
@@ -444,7 +444,7 @@
   <div class="container">
     <h3>Special offer! </h3>
     <p>As a small surprise for you, simply contact us today with the code "ePropelSurprise" for an exclusive discount off the regular price of our services. Contact us now to see how we can help your business with our web development, graphic design, and digital marketing services.</p>
-    <a class="button large orange button-3d effect icon-left" href="/contact.html"><span><i class="fa fa-user"></i>Contact Us Now</span></a> </div>
+    <a class="button large orange button-3d effect icon-left" href="/contact.php"><span><i class="fa fa-user"></i>Contact Us Now</span></a> </div>
 </div>
         
         <section>
@@ -519,7 +519,7 @@
         <div class="container">
             <h3>Like what you see?</h3>
             <p>Contact us today for a free quote and see how we can help your business propel forward.</p>
-            <a class="button large orange button-3d effect icon-left" href="/contact.html"><span><i class="fa fa-user"></i>Contact Us Now</span></a> </div>
+            <a class="button large orange button-3d effect icon-left" href="/contact.php"><span><i class="fa fa-user"></i>Contact Us Now</span></a> </div>
         </div>
                     
         <!-- END: SERVICES -->

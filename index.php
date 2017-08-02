@@ -196,7 +196,7 @@
 
 
 
-        <section>
+        <section class="negate-margin">
 
             <section>
                 <div class="container">
@@ -222,7 +222,7 @@
                                 </div>
                                 <h3>Affordable High-Quality Services</h3>
 
-                                <p>We believe that high quality services shouldn't empty your wallet, therefore we charge our services at one-half of the industry average price without jeopardizing the same high quality services. Our goal is to offer you the maximum return on your investment with us. Rest assured that the benefits that you receive will be much greater than the costs.</p>
+                                <p>We believe that high quality services shouldn't empty your wallet, so we offer our services below the industry average cost. Our goal is to offer you the maximum return on your investment, no matter what project.</p>
                             </div>
                         </div>
                         <div class="col-md-4" data-animation="fadeInUp" data-animation-delay="200">
@@ -231,7 +231,7 @@
                                     <a href="#"><i class="fa fa-users"></i></a>
                                 </div>
                                 <h3>Leader in Corporate Social Responsibility</h3>
-                                <p>Our vision is to become a leader in corporate social responsibility in Canada. By donating 10% of profits from each project, this provides a greater sense of motivation and purpose to what we do everyday. For you, this means that you can benefit from our services while supporting your favourite charity at no extra cost to you.</p>
+                                <p>Our vision is to become a leader in corporate social responsibility in Canada. By donating 10% of profits from each project, this provides a greater sense of motivation and purpose to what we do everyday. This means that you can benefit from our services while supporting your favourite charity at no extra cost to you.</p>
                             </div>
                         </div>
                         <div class="col-md-4" data-animation="fadeInUp" data-animation-delay="300">
@@ -239,7 +239,7 @@
                                 <div class="icon">
                                     <a href="#"><i class="fa fa-map-marker"></i></a>
                                 </div>
-                                <h3>We Come to You. Wherever, Whenever</h3>
+                                <h3>Wherever, Whenever</h3>
                                 <p>Office or Restaurant? We are available to meet with you by appointment anytime of the week, even after regular work hours. Are you busy from 9-5 and want to meet in the evenings? No problem. Weekend Meetings? Done.</p>
                             </div>
                         </div>
@@ -258,24 +258,91 @@
                                     <a href="#"><i class="fa fa-thumbs-o-up"></i></a>
                                 </div>
                                 <h3>Complimentary Customer Support</h3>
-                                <p>Unlike other businesses, we believe in providing the best customer support before, during, and after your purchase with us. Need to add a new custom page to your website a month after your purchase? Sure we’ll be happy to help. Need a different size for your poster? No worries, we’ll be happy to help, free of charge.</p>
+                                <p>No disappearing after project completion. We believe in customer support before, during, and after your purchase with us. Need to add a new custom page to your website a month after your purchase? Sure we’ll be happy to help.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
+            <section class="background-grey">
+                <!-- END: Portfolio Filter -->
+                <div class="container portfolio">
+                    <div class="heading heading-center">
+                        <h2>BUSINESSES IN ORBIT</h2>
+                    </div>
+                    <!-- Portfolio Items -->
+                    <div id="isotope" class="isotope portfolio-items" data-isotope-item-space="3" data-isotope-mode="masonry" data-isotope-col="3" data-isotope-item=".portfolio-item">
 
+                        <div class="portfolio-item marketing website">
+                            <div class="portfolio-image effect social-links">
+                                <img src="images/portfolio/alphacrowd/alphacrowdcontrol.png" alt="">
+                                <div class="image-box-content">
+                                    <p>
+                                        <a href="images/portfolio/alphacrowd/alphacrowdcontrol.png" data-lightbox-type="image" title="Alpha Crowd Control Website and SEO"><i class="fa fa-expand"></i></a>
+                                        <a href="http://www.alphacrowdcontrol.com" target="_blank"><i class="fa fa-link"></i></a>
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="portfolio-description">
+                                <h4 class="title">Alpha Crowd Control Website & SEO</h4>
+                                <p><i class="fa fa-tag"></i> Website, Digital Marketing </p>
+                            </div>
+                            <div class="portfolio-details">
+                                <p>Designed a website to display products for national stanchion supplier Alpha Crowd Control. Previously ranking off the first page of Google, ePropel planned and executed a successful SEO project that has helped Alpha CC jump to the 3rd spot on Google for their keywords of choice.</p>
+                            </div>
+                        </div>
+                        <div class="portfolio-item website design">
+                            <div class="portfolio-image effect social-links">
+                                <img src="images/portfolio/overtureventure/Screenshot_1.png" alt="">
+                                <div class="image-box-content">
+                                    <p>
+                                        <a href="images/portfolio/overtureventure/Screenshot_1.png" data-lightbox-type="image" title="Overture Ventures"><i class="fa fa-expand"></i></a>
+                                        <a href="http://www.overtureventures.com" target="_blank"><i class="fa fa-link"></i></a>
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="portfolio-description">
+                                <h4 class="title">Overture Ventures Website & Rebranding</h4>
+                                <p><i class="fa fa-tag"></i> Website, Design</p>
+                            </div>
+                            <div class="portfolio-details">
+                                <p>The next Uber or Airbnb? Overture Ventures is a startup consulting firm dedicated to grwoing Canadian entrepreneurs and helping them build the next big thing. ePropel helped Overture establish a branding package and created a website to showcase all their world-shattering work.</p>
+                            </div>
+                        </div>
+                        <div class="portfolio-item website marketing">
+                            <div class="portfolio-image effect social-links">
+                                <img src="images/portfolio/picturesensations/picturesensations.png" alt="picture sensations">
+                                <div class="image-box-content">
+                                    <p>
+                                        <a href="images/portfolio/picturesensations/pictureShop.png" data-lightbox-type="image" title="Picture Sensations"><i class="fa fa-expand"></i></a>
+                                        <a href="http://www.picturesensations.com" target="_blank"><i class="fa fa-link"></i></a>
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="portfolio-description">
+                                <h4 class="title">Picture Sensations Website & SEO</h4>
+                                <p><i class="fa fa-tag"></i> Website, Digital Marketing </p>
+                            </div>
+                            <div class="portfolio-details">
+                                <p>Need some stylish artwork for your house? We helped wall-decor company Picture Sensations create their own online store to display their trendy prints. Bonus? Our SEO project led to a jump in visitors from 34 in a year to 865 in a month alone. We can't take all the credit, but we'll take a little bit of it.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <div class="jumbotron jumbotron-fullwidth background-colored text-light">
                 <div class="container">
-                    <h3>Like what you see?</h3>
-                    <p>Contact us today for a free quote and see how we can help your business propel forward.</p>
-                    <a class="button large orange button-3d effect icon-left" href="/contact.html"><span><i class="fa fa-user"></i>Contact Us Now</span></a> </div>
+                    <h3>That's Not All</h3>
+                    <p>We have a lot more design and website projects under our belt. Come check out our full portfollio!</p>
+                    <a class="button large orange button-3d effect icon-left" href="/portfolio.php"><span><i class="fa fa-rocket"></i>ROCKET FLEET</span></a> </div>
             </div>
-
             <!-- END: SERVICES -->
 
             <!-- Testimonial -->
-            <section id="section-testimonials">
+            <section id="section-testimonials negate-margin">
                 <div class="container">
                     <!-- Heading -->
                     <div class="container">
@@ -288,19 +355,19 @@
                         <!-- Testimonials -->
                         <div id="testimonials">
                             <div class="testimonial-item">
-                                <img src="images/Dylan.jpg" alt="Dylan Brookes">
-                                <p>"I asked ePropel to create a logo for my new business, AquaSwift, and I had a fantastic experience with the ePropel team. They did everything that I asked for and more! The logo that they designed was very professional, well thought out, and creative. This new logo will help me to move forward with my new business and provide me with the momentum to achieve my goals. Overall, I would give ePropel a 10/10 rating. Their services are the best that you can get and I would highly recommend them!"</p>
-                                <span>Dylan Brookes, Founder of AquaSwift</span>
+                                <img src="images/portfolio/overtureventure/albert.jpg" alt="Albert Oppenheimer">
+                                <p>"One word that summarizes the experience with ePropel: Magnificent! I hired ePropel to create a new website and branding materials for my startup consulting business, Overture Ventures. I found the entire process to be quite enjoyable. The team were always well prepared and came up with creative solutions. With the help of ePropel, Overture Ventures now has a face to the outside world. It greatly benefits the growth of Overture Ventures as the new website and branding materials present the company in a professional manner to attract new clients. Overall, I would highly recommend ePropel’s services and I would rate them 10/10 for always exceeding the standards."</p>
+                                <span>Albert Oppenheimer and Evan Hall, Chair and President of Overture Ventures</span>
                             </div>
                             <div class="testimonial-item">
-                                <img src="images/Dylan.jpg" alt="Dylan Brookes">
-                                <p>"I asked ePropel to create a logo for my new business, AquaSwift, and I had a fantastic experience with the ePropel team. They did everything that I asked for and more! The logo that they designed was very professional, well thought out, and creative. This new logo will help me to move forward with my new business and provide me with the momentum to achieve my goals. Overall, I would give ePropel a 10/10 rating. Their services are the best that you can get and I would highly recommend them!"</p>
-                                <span>Dylan Brookes, Founder of AquaSwift</span>
+                                <img src="images/portfolio/noblewood/linda.png" alt="Linda Burlon">
+                                <p>"Wow! ePropel did a phenomenal job creating our new website for my business, Noblewood Heating and Air Conditioning Ltd. The ePropel team was extremely professional, organized, and efficient.  After researching other website design companies, I found ePropel’s professionalism and amazing customer service to be a step above the rest. I am beyond pleased with the final website, it was everything that I wanted and more! If I could give ePropel more than a 10/10 rating, I would. If you are looking to create a new website or update your existing website, look no further because ePropel is the only way to go!"</p>
+                                <span>Linda Burlon, Chief Administrative Officer, Noblewood Heating & Air Conditioning Ltd.</span>
                             </div>
                             <div class="testimonial-item">
-                                <img src="images/Dylan.jpg" alt="Dylan Brookes">
-                                <p>"I asked ePropel to create a logo for my new business, AquaSwift, and I had a fantastic experience with the ePropel team. They did everything that I asked for and more! The logo that they designed was very professional, well thought out, and creative. This new logo will help me to move forward with my new business and provide me with the momentum to achieve my goals. Overall, I would give ePropel a 10/10 rating. Their services are the best that you can get and I would highly recommend them!"</p>
-                                <span>Dylan Brookes, Founder of AquaSwift</span>
+                                <img src="images/portfolio/alphacrowd/allan.jpg" alt="Allan Tong">
+                                <p>"I asked ePropel to create a new website for my business, Alpha Crowd Control Inc. The entire experience from beginning to end was fantastic. The team was very professional and delivered a high quality website in a timely manner. They were also very patient when it took me longer than expected to provide the new product images for my business. This new website will improve the credibility and professional image of my business, which generates more sales leads. Overall, the final website exceeded my expectations and I would rate ePropel 10/10."</p>
+                                <span>Allan Tong, Senior Manager at Alpha Crowd Control Inc.</span>
                             </div>
                             <!-- Testimonials item -->
                             <div class="testimonial-item">
@@ -348,6 +415,83 @@
                 </div>
             </section>
             <!-- End: Testimonial -->
+            <div class="jumbotron jumbotron-fullwidth background-colored text-light">
+                <div class="container">
+                    <h3>Like what you see?</h3>
+                    <p>Contact us today for a free quote and see how we can help your business propel forward.</p>
+                </div>
+            </div>
+                <section>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <!-- <div class="social-icons m-t-30 social-icons-colored">
+                            <ul>
+                                <li class="social-facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li class="social-google"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                <li class="social-linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>-->
+                            </div>
+
+                            <div class="col-md-12">
+                                <form id="widget-contact-form" action="include/contact-form.php" role="form" method="post">
+                                    <div class="row">
+                                        <div class="form-group col-sm-6">
+                                            <label for="name">Name</label>
+                                            <input type="text" aria-required="true" name="widget-contact-form-name" class="form-control required name" placeholder="Enter your Name">
+                                        </div>
+                                        <div class="form-group col-sm-6">
+                                            <label for="email">Email</label>
+                                            <input type="email" aria-required="true" name="widget-contact-form-email" class="form-control required email" placeholder="Enter your Email">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-group col-sm-12">
+                                            <label for="subject">Your Subject</label>
+                                            <input type="text" name="widget-contact-form-subject" class="form-control required" placeholder="Subject...">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="message">Message</label>
+                                        <textarea type="text" name="widget-contact-form-message" rows="5" class="form-control required" placeholder="Enter your Message"></textarea>
+                                    </div>
+                                    <input type="text" class="hidden" id="widget-contact-form-antispam" name="widget-contact-form-antispam" value="" />
+                                    <button class="btn btn-primary" type="submit" id="form-submit"><i class="fa fa-paper-plane"></i>&nbsp;Blast Off!</button>
+                                </form>
+                                <script type="text/javascript">
+                                    jQuery("#widget-contact-form").validate({
+
+                                        submitHandler: function(form) {
+
+                                            jQuery(form).ajaxSubmit({
+                                                success: function(text) {
+                                                    if (text.response == 'success') {
+                                                        $.notify({
+                                                            message: "We have <strong>successfully</strong> received your Message and will get back to you as soon as possible."
+                                                        }, {
+                                                            type: 'success'
+                                                        });
+                                                        $(form)[0].reset();
+
+                                                    } else {
+                                                        $.notify({
+                                                            message: text.message
+                                                        }, {
+                                                            type: 'danger'
+                                                        });
+                                                    }
+                                                }
+                                            });
+                                        }
+                                    });
+
+                                </script>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
         </section>
         <!-- FOOTER -->
         <footer class="background-dark text-grey" id="footer">

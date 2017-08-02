@@ -356,8 +356,9 @@
   z-index: -2;
 }
 
-
-
+.negate-margin{
+    margin-bottom: 0px; !important
+}
 
 
 
