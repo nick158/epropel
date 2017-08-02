@@ -511,7 +511,8 @@
                             <p>Unlike other businesses, we believe in providing the best customer support before, during, and after your purchase with us. Need to add a new custom page to your website a month after your purchase? Sure we’ll be happy to help. Need a different size for your poster? No worries, we’ll be happy to help, free of charge.</p>
                         </div>
                     </div>
- 
+                </div>
+            </div>
                     </section>
     
                 <div class="jumbotron jumbotron-fullwidth background-colored text-light">
@@ -571,6 +572,7 @@
 
                 </script>
                 <!-- End: Testimonials -->
+            </div>
             </div>
         </section>
         <!-- End: Testimonial -->
@@ -668,8 +670,7 @@ jsFileLocation:"vendor/rs-plugin/js/",
 	<script src="js/theme-functions.js"></script>
 
 <!-- Custom js file -->
-<script src="js/custom.js"></script>
-
+            <script async src="js/custom.js"></script>
 
 </body>
 </html>
