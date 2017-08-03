@@ -34,7 +34,7 @@
 				<div class="accordion toggle fancy radius clean">
 					<div class="ac-item">
 						<h5 class="ac-title"><i class="fa fa-question-circle"></i>Can I get additional support after purchase?</h5>
-						<div style="" class="ac-content">Yes. At ePropel, we place customer satisfaction as our top priority. We are happy to provide complementary support for you every step of the way, from before to after your purchase. Simply contact us at support@ePropel.ca or give us a call at 647-393-6444. Need our help to modify a page on your website? No problem. We are happy to help.</div>
+						<div style="" class="ac-content">For sure. At ePropel, customer satisfaction is our top priority. We are happy to provide complementary support for you every step of the way, from before to after your purchase. Simply contact us at support@ePropel.ca or give us a call at 647-393-6444. Need our help to modify a page on your website? No problem. We are happy to help.</div>
 					</div>
 					<div class="ac-item">
 						<h5 class="ac-title"><i class="fa fa-question-circle"></i>What do I do in the event that I am not completely satisfied with my purchase? </h5>
@@ -42,17 +42,22 @@
 					</div>
 					<div class="ac-item">
 						<h5 class="ac-title"><i class="fa fa-question-circle"></i>How much do you charge for your services?</h5>
-						<div style="display: none;" class="ac-content">The price varies depending on the needs of each service project. However, no matter what price we charge, we will always ensure that it is the best offer that you find and that you are maximizing the return on your investment through the purchase of our services.</div>
+						<div style="display: none;" class="ac-content">Every project is unique and tailored to your needs, therefore the price will vary on a project to project basis. However, no matter what price we charge, we will always ensure that it is the best offer that you find and that you are maximizing the return on your investment.</div>
 					</div>
 					<div class="ac-item">
-						<h5 class="ac-title"><i class="fa fa-question-circle"></i>Are there free versions of this service?</h5>
-						<div style="display: none;" class="ac-content">You have to pay to get this service. Alternatively, the free versions are very limited and not as good. It also takes many hours for you to work on it when you could have been using those hours to focus on your business activities. With ePropel, our custom services will get you what you want, in the way that you want it. Our team will finish your project to perfection and we will not stop until we are successful.</div>
+						<h5 class="ac-title"><i class="fa fa-question-circle"></i>Why not use a website builder?</h5>
+						<div style="display: none;" class="ac-content">Website builders are great. They let you have a website up and running quickly and easily, often at lower costs than what a firm like us offers. But with website builders, they offer limited functionality, and you end up fiddling with settings (and diving into code) for a result that will not meet your standards. Website builders are a great place to start, but if you want full control over the feel and experience of your site, the ability to easily track sales and traffic, or just want someone to handle the mess of code for you, you know who to call.</div>
+                        
 					</div>
                     <div class="ac-item">
 						<h5 class="ac-title"><i class="fa fa-question-circle"></i>Can I hire a freelancer to do the same thing?</h5>
-						<div style="display: none;" class="ac-content">Yes, but freelancers do not have the same experience that we do and are often limited to just one area of expertise. Our company has team members come from a variety of backgrounds including web development, graphic design, and business. This allows us to provide you the complete package. Whether it is developing a stunningly beautiful website that communicates the right message to your audience to creating appealing posters to help you generate more sales, we do it all! Plus, freelancers are often not accountable. They tend to move on to other projects and not provide you with the customer support services that you need after your purchase. For us, our team are dedicated to your company’s success. We take great pride in going above our customer’s expectations by providing you with complimentary free support after your purchase. </div>
+						<div style="display: none;" class="ac-content">Go for it. There are plenty of talented freelancers to be found. However, freelancers do not have the same experience that we do and are often limited to just one area of expertise. <br>ePropel takes pride in having team members come from a variety of backgrounds including web development, graphic design, and business. Be it developing a stunningly beautiful website that reflects the brand to creating appealing posters to help you generate more sales, we do it all! Plus, freelancers are often not accountable. They tend to move on to other projects and not provide you with the customer support services that you need after your purchase. For us, our team are dedicated to your company’s success. We take great pride in going above our customer’s expectations by providing you with complimentary free support after your purchase. </div>
 					</div>
-					
+					<div class="ac-item">
+						<h5 class="ac-title"><i class="fa fa-question-circle"></i>What do you sell?</h5>
+                        <div style="display: none;" class="ac-content">Simple answer? Digital marketing, web development, graphic design and any combination of these services so we can help establish an online presence for your company that will get you more sales. 
+                            <br>Complicated answer? We sell time, expertise, and peace of mind. You don't need to touch code. Or worry about designing and making something look nice. You tell us what to do, and we make sure that it gets done so you can focus on your own business.</div>
+					</div>
 					
 				</div>
 			</div>
@@ -91,7 +96,84 @@
 	</div>
 </section>
 <!-- END: SECTION -->
+ <div class="jumbotron jumbotron-fullwidth background-colored text-light">
+                <div class="container">
+                    <h3>Like what you see?</h3>
+                    <p>Contact us today for a free consultation.</p>
+                    <p>We offer a comprehensive review of your current site, design suggestions, and SEO enhancements free of charge. Don't want to work with us? Take our review anywhere you like for launch. It's on us.</p>
+                </div>
+            </div>
+                <section>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <!-- <div class="social-icons m-t-30 social-icons-colored">
+                            <ul>
+                                <li class="social-facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li class="social-google"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                <li class="social-linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>-->
+                            </div>
 
+                            <div class="col-md-12">
+                                <form id="widget-contact-form" action="include/contact-form.php" role="form" method="post">
+                                    <div class="row">
+                                        <div class="form-group col-sm-6">
+                                            <label for="name">Name</label>
+                                            <input type="text" aria-required="true" name="widget-contact-form-name" class="form-control required name" placeholder="Enter your Name">
+                                        </div>
+                                        <div class="form-group col-sm-6">
+                                            <label for="email">Email</label>
+                                            <input type="email" aria-required="true" name="widget-contact-form-email" class="form-control required email" placeholder="Enter your Email">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-group col-sm-12">
+                                            <label for="subject">Your Subject</label>
+                                            <input type="text" name="widget-contact-form-subject" class="form-control required" placeholder="Subject...">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="message">Message</label>
+                                        <textarea type="text" name="widget-contact-form-message" rows="5" class="form-control required" placeholder="Enter your Message"></textarea>
+                                    </div>
+                                    <input type="text" class="hidden" id="widget-contact-form-antispam" name="widget-contact-form-antispam" value="" />
+                                    <button class="btn btn-primary" type="submit" id="form-submit"><i class="fa fa-paper-plane"></i>&nbsp;Blast Off!</button>
+                                </form>
+                                <script type="text/javascript">
+                                    jQuery("#widget-contact-form").validate({
+
+                                        submitHandler: function(form) {
+
+                                            jQuery(form).ajaxSubmit({
+                                                success: function(text) {
+                                                    if (text.response == 'success') {
+                                                        $.notify({
+                                                            message: "We have <strong>successfully</strong> received your Message and will get back to you as soon as possible."
+                                                        }, {
+                                                            type: 'success'
+                                                        });
+                                                        $(form)[0].reset();
+
+                                                    } else {
+                                                        $.notify({
+                                                            message: text.message
+                                                        }, {
+                                                            type: 'danger'
+                                                        });
+                                                    }
+                                                }
+                                            });
+                                        }
+                                    });
+
+                                </script>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
 <!-- FOOTER -->
 <footer class="background-dark text-grey" id="footer">
     <div class="footer-content">

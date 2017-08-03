@@ -418,7 +418,8 @@
             <div class="jumbotron jumbotron-fullwidth background-colored text-light">
                 <div class="container">
                     <h3>Like what you see?</h3>
-                    <p>Contact us today for a free quote and see how we can help your business propel forward.</p>
+                    <p>Contact us today for a free consultation.</p>
+                    <p>We offer a comprehensive review of your current site, design suggestions, and SEO enhancements free of charge. Don't want to work with us? Take our review anywhere you like for launch. It's on us.</p>
                 </div>
             </div>
                 <section>

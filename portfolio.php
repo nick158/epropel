@@ -349,7 +349,84 @@
             <hr class="space">
             </div>
         </section>
+ <div class="jumbotron jumbotron-fullwidth background-colored text-light">
+                <div class="container">
+                    <h3>Like what you see?</h3>
+                    <p>Contact us today for a free consultation.</p>
+                    <p>We offer a comprehensive review of your current site, design suggestions, and SEO enhancements free of charge. Don't want to work with us? Take our review anywhere you like for launch. It's on us.</p>
+                </div>
+            </div>
+                <section>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <!-- <div class="social-icons m-t-30 social-icons-colored">
+                            <ul>
+                                <li class="social-facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li class="social-google"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                <li class="social-linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>-->
+                            </div>
 
+                            <div class="col-md-12">
+                                <form id="widget-contact-form" action="include/contact-form.php" role="form" method="post">
+                                    <div class="row">
+                                        <div class="form-group col-sm-6">
+                                            <label for="name">Name</label>
+                                            <input type="text" aria-required="true" name="widget-contact-form-name" class="form-control required name" placeholder="Enter your Name">
+                                        </div>
+                                        <div class="form-group col-sm-6">
+                                            <label for="email">Email</label>
+                                            <input type="email" aria-required="true" name="widget-contact-form-email" class="form-control required email" placeholder="Enter your Email">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-group col-sm-12">
+                                            <label for="subject">Your Subject</label>
+                                            <input type="text" name="widget-contact-form-subject" class="form-control required" placeholder="Subject...">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="message">Message</label>
+                                        <textarea type="text" name="widget-contact-form-message" rows="5" class="form-control required" placeholder="Enter your Message"></textarea>
+                                    </div>
+                                    <input type="text" class="hidden" id="widget-contact-form-antispam" name="widget-contact-form-antispam" value="" />
+                                    <button class="btn btn-primary" type="submit" id="form-submit"><i class="fa fa-paper-plane"></i>&nbsp;Blast Off!</button>
+                                </form>
+                                <script type="text/javascript">
+                                    jQuery("#widget-contact-form").validate({
+
+                                        submitHandler: function(form) {
+
+                                            jQuery(form).ajaxSubmit({
+                                                success: function(text) {
+                                                    if (text.response == 'success') {
+                                                        $.notify({
+                                                            message: "We have <strong>successfully</strong> received your Message and will get back to you as soon as possible."
+                                                        }, {
+                                                            type: 'success'
+                                                        });
+                                                        $(form)[0].reset();
+
+                                                    } else {
+                                                        $.notify({
+                                                            message: text.message
+                                                        }, {
+                                                            type: 'danger'
+                                                        });
+                                                    }
+                                                }
+                                            });
+                                        }
+                                    });
+
+                                </script>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
         <!-- FOOTER -->
         <footer class="background-dark text-grey" id="footer">
             <div class="footer-content">
